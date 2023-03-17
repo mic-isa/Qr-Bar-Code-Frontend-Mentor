@@ -29,56 +29,24 @@ body{
 }
 
 h3, p{
-    padding: 0.3em;
+    padding: 0.5em;
     
     text-align: center;
 }
 
 h3{
-    font-size: 1.6em;
+    font-size: 1.5em;
     margin:1em 0em 0.5em 0em ;
     font-weight: bolder;
 }
 p{
-    font-size:  1.05em;
+    font-size:  1.10em;
     margin:0em 0em 1em 0em ;
     color: grey;
     font-weight: bold;
     line-height: 1.2em;
 }
-@media (max-width:600px){
-    .contanier{
-        width: 60%;
-        margin: auto;
-        background-color:rgb(255, 255, 255) ;
-        padding: 0.8em;
-        height: auto;
-        border-radius: 0.8em;
-        text-align: center;
-        position: fixed;
-        top: 50%;
-       
-        transform: translate(-50%, -50%);
-        left: 50%;
-    }
-    h3, p{
-        padding: 0.8em;
-        text-align: center;
-    }
-    
-    h3{
-        font-size: 1.2em;
-        margin:0em 0em 0em 0em ;
-        font-weight: bolder;
-    }
-    p{
-        font-size:  0.8em;
-        margin:0em 0em 1em 0em ;
-        color: grey;
-        font-weight: bold;
-        line-height: 1.2em;
-    }
-}
+
 @media (max-width:992px){
     .contanier{
         width: 60%;
@@ -116,34 +84,34 @@ p{
         border-radius:1.2em;
     }
 }
-@media (mi-width:992px){
+@media (max-width:600px){
     .contanier{
-        width: 80%;
-        margin: auto;
+        width: 60%;
+        margin:auto;
         background-color:rgb(255, 255, 255) ;
-        padding: 1.5em;
+        padding: 0.8em;
         height: auto;
         border-radius: 0.8em;
         text-align: center;
         position: fixed;
         top: 50%;
+       
         transform: translate(-50%, -50%);
         left: 50%;
     }
     h3, p{
-        padding: 0.5em;
-        
+        padding: 0.8em;
         text-align: center;
     }
     
     h3{
-        font-size: 2.5em;
-        margin:1em 0em 1em 0em ;
+        font-size: 1.5em;
+        margin:0em 0em 0em 0em ;
         font-weight: bolder;
     }
     p{
-        font-size:  1.7em;
-        margin:0em 0em 2em 0em ;
+        font-size:  1.2em;
+        margin:0em 0em 1em 0em ;
         color: grey;
         font-weight: bold;
         line-height: 1.2em;
